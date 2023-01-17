@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const todos = ref(['Walk the dog', 'Water the plants', 'Wash the dishes'])
+const todos = ref(['Demo task 1', 'Demo task 2', 'Demo task 3'])
 const newTodoInput = ref('');
 
 const addTodo = (newTodo: string) => {
@@ -15,7 +15,7 @@ const deletetodo = (todoToDelete: string) => {
 
 </script>
 <template>
-  <h1>03. Todo List</h1>
+  <h2>03. Todo List</h2>
   <div>
     <input 
       type="text" 

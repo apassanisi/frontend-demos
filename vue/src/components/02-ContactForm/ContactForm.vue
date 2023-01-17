@@ -13,7 +13,7 @@ const submit = () => {
 
 </script>
 <template>
-  <h1>02. Contact Form</h1>
+  <h2>02. Contact Form</h2>
   <form method="post" @submit.prevent="submit">
     <div>
       <label for="name">Name </label>

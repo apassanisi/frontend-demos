@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function TodoList() {
-  const [todos, setTodos] = useState(['Walk the dog', 'Water the plants', 'Wash the dishes']);
+  const [todos, setTodos] = useState(['Demo task 1', 'Demo task 2', 'Demo task 3']);
   const [newTodoInput, setNewTodoInput] = useState('')
 
   const addTodo = () => {
@@ -9,13 +9,13 @@ function TodoList() {
     setNewTodoInput('')
   }
 
-  const deleteTodo = todoToDelete => () => {
+  const deleteTodo = (todoToDelete: any) => () => {
     setTodos(todos.filter(todo => todo !== todoToDelete))
   }
 
   return (
     <div>
-      <h1>03. Todo List</h1>
+      <h2>03. Todo List</h2>
       <div>
         <input
           type="text"

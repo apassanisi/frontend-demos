@@ -7,14 +7,14 @@ function ContactForm() {
     message: "",
   })
 
-  const submit = (e) => {
+  const submit = (e: any) => {
     e.preventDefault()
     console.log(formData)
   }
 
   return (
     <div>
-      <h1>02. Contact Form</h1>
+      <h2>02. Contact Form</h2>
       <form method="post" onSubmit={submit}>
         <div>
           <label htmlFor="name">Name </label>

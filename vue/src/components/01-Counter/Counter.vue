@@ -4,7 +4,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>01. Counter</h1>
+  <h2>01. Counter</h2>
   <button @click="() => count++">
     <span>Clicks: {{ count }}</span>
   </button>

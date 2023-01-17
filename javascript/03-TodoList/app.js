@@ -3,7 +3,7 @@
   const $submitButtonEl = document.querySelector('#submit');
   const $todoListEl = document.querySelector('ul');
 
-  const TASKS = ['Walk the dog', 'Water the plants', 'Wash the dishes'];
+  const TASKS = ['Demo task 1', 'Demo task 2', 'Demo task 3'];
 
   function addTask(label) {
     const $newTaskElement = document.createElement('li');
